@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first webpage</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style type="text/css">
+    @media handheld
+    body{width:98%;font-family:Verdana;font-size:16px;} 
+    </style>
+</head>
+<body>
+	<div id = "container">
+		<div id = "header">
+			<h1>My website</h1>
+		</div>
+		<div id = "content">
+			<div id= "nav">
+				<h3>Navigation</h3>
+				<ul>
+					<li><a class= "selected" href="">Home</a></li>
+					<li><a href=""> About</a></li>
+					<li><a href="">  Contact </a></li>
+				</ul>
+			</div>	
+			<div id = "main">
+				<h2>Home Page</h2>
+				<h2>Home Page</h2>
+				<p>ajsdklfjalkdjflk dlkjflkajdf alkjdflkajdf</p>
+				<p>ajsdklfjalkdjflk dlkjflkajdf alkjdflkajdf</p>
+				<p>ajsdklfjalkdjflk dlkjflkajdf alkjdflkajdf</p>
+			</div>
+		</div>
+		<div id = "footer">
+			Copyright &copy; 2020 Marco Godoy V.  
+		</div>
+	</div>
+</body>
+</html>
